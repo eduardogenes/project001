@@ -1,0 +1,176 @@
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+* {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 10px;
+
+
+
+  display: grid;
+
+  grid-template-areas:
+    'header header'
+    'main aside'
+    'footer footer';
+
+  width: 635px;
+  height: 475px;
+  left: 403px;
+  top: 163px;
+  
+
+}
+
+header {
+  grid-area: header;  
+}
+
+.sessao_1 h1 {
+  font-weight: 700;
+  color: #2ab3b1;
+  margin-left: 40px;
+
+  margin-top: 40px;
+  
+}
+
+.sessao_2_1 p {
+  font-weight: 700;
+
+  color: #c0df33;
+  margin-left: 40px;
+  margin-top: 24px;
+
+
+}
+
+.sessao_2_2 {
+  color: #9aa7be;
+  margin-top: 11px;
+  margin-left: 40px;
+  background-origin: padding-box;
+  line-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+html body main span#texto_4 svg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 0px;
+  
+}
+
+main {
+  grid-area: main;
+
+  background-color: #2ab3b1;
+  color: white;
+  margin-right: 0%;
+  left: 0%;
+  right: 50%;
+  top: 40.46%;
+  bottom: 0%;
+}
+
+#texto_1 {
+  font-weight: 700;
+
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+main div {
+  margin-top: 18px;
+  margin-left: 40px;
+}
+#texto_2,
+#texto_2_2 {
+  display: inline-block;
+
+}
+#texto_2 h1{
+  font-weight: 700;
+
+}
+
+#texto_2_2 p{
+
+letter-spacing: 1px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+}
+
+#texto_3 p {
+  margin-top: 4px;
+  margin-left: 40px;
+}
+#texto_4 {
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 40px;
+}
+
+
+aside {
+  grid-area: aside;
+
+  background-color: #2ab3b1;
+  color: white;
+  margin-left: 0px;
+
+  left: 50%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  text-align: center;
+}
+
+aside{
+  mix-blend-mode: normal;
+  opacity:90%;
+}
+
+
+aside h3 {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-weight: 700;
+
+}
+
+body aside p {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 18px;
+  line-height: 20px;
+}
+footer {
+  grid-area: footer;
+  height: 2px;
+}
+
